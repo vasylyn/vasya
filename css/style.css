@@ -1,5 +1,27 @@
-h1{
+@import url('https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope|Indie+Flower');h1{
     text-align: center;
     font-family: fantasy;
     color: darkred;
+}
+
+.cell{
+    height: 170px ;
+    width: 170px ;
+    border: 7px solid tomato;
+    text-align: center;
+    font-size: 160px;
+    font-family: 'Indie Flower', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex; /* or inline-flex */
+    align-items: stretch;
+}
+#center {
+    display: flex; /* or inline-flex */
+    flex-direction: column ;
+    margin: 0 auto;
 }
